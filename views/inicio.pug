@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block slider
+    .slider
+        h1 Río de Janeiro
+        em Aventura
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+
+        .row.mb-5
+            .col-md-6
+                p Sed luctus dolor dapibus diam facilisis fringilla. Duis ac nulla pellentesque, semper elit fringilla, pulvinar felis. Mauris ac tempor nibh. Duis eget diam ut ipsum pellentesque molestie. Donec sed libero nec metus ultricies viverra et bibendum orci. Proin vitae pharetra velit. Vestibulum ac odio in urna tincidunt accumsan.
+                p Nam eleifend nisl eget enim sagittis consectetur. Cras neque nisi, dignissim quis congue non, cursus quis sapien. Sed sed nibh eu ante semper pharetra. Phasellus iaculis rhoncus velit, sit amet egestas mauris molestie nec. Sed magna odio, tempor nec ex sit amet, consectetur venenatis magna. Donec tristique tempor tristique. Cras convallis a justo non rutrum.
+
+            .col-md-6
+                img(src='/img/inicio_nosotros.jpg' alt='Imagen nosotros').img-fluid
+
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de Descuento
+                        p.titulo Viaje a Canadá
+                        p.fecha 20 de Marzo 2022 - 28 de Marzo 2023
+
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales

@@ -1,0 +1,27 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src='img/nosotros.jpg' alt='Imagen sobre nosotros').img-fluid
+            .col-md-7
+                h1 #{pagina}
+                blockquote Morbi ullamcorper dignissim tellus, quis lobortis nulla. Nulla facilisi. Etiam ex ipsum, suscipit et eros in, finibus convallis risus. In fringilla felis ex, in dapibus est ultricies a. Sed pulvinar tempor mollis. Duis vitae quam risus. Donec semper nisi vitae libero congue, id bibendum ipsum lobortis.
+                p Nullam varius condimentum eros quis viverra. Pellentesque suscipit, tellus fringilla dignissim dapibus, mauris sapien euismod sapien, non laoreet velit purus eu dolor. Nam massa erat, consequat ultrices tellus in, pellentesque varius mi.
+                p Nullam faucibus eros non lectus dignissim dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras condimentum tellus et nunc tincidunt facilisis. Duis et felis a mi rhoncus tristique.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src='img/icono_seguridad.svg' alt='icono seguridad').img-fluid.mb-4
+                    h2.mb-4 Seguridad
+                    p Nam massa erat, consequat ultrices tellus in, pellentesque varius mi nullam varius condimentum eros quis viverra.
+                .col-md-4
+                    img(src='img/icono_destinos.svg' alt='icono destinos').img-fluid.mb-4
+                    h2.mb-4 Mejores Destinos
+                    p Nam massa erat, consequat ultrices tellus in, pellentesque varius mi nullam varius condimentum eros quis viverra.
+                .col-md-4
+                    img(src='img/icono_precios.svg' alt='icono precios').img-fluid.mb-4
+                    h2.mb-4 Mejores Precios
+                    p Nam massa erat, consequat ultrices tellus in, pellentesque varius mi nullam varius condimentum eros quis viverra.
